@@ -15,6 +15,7 @@ aside{
 .aside_h1{
     color: #5394A0;
     font-family: 'Sono', sans-serif;
+    text-align:center;
 }
 
 .list{
@@ -30,6 +31,18 @@ aside{
 }
 
 .images{
-    text-align: center;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    color: #5394A0;
+}
+
+.flex-item{
+    padding: 12px;
 }
