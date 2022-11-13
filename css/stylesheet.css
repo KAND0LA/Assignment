@@ -1,0 +1,26 @@
+.Better_Notes{
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    color: #5394A0;
+}
+
+.main_section{
+    background-color: #EDDDD0;
+
+}
+
+aside{
+    background-color: #F9F3EC;
+}
+
+.aside_h1{
+    color: #5394A0;
+    font-family: 'Sono', sans-serif;
+}
+
+.list{
+    color: #5394A0;
+    font-family: 'Sono', sans-serif;
+    list-style: square;
+}
+
