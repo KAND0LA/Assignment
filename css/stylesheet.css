@@ -24,3 +24,8 @@ aside{
     list-style: square;
 }
 
+.footer_h1{
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    color: #5394A0;
+}
