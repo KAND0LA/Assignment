@@ -8,11 +8,7 @@
     background-color: #EDDDD0;
 }
 
-aside{
-    background-color: #F9F3EC;
-}
-
-.aside_h1{
+.aside_h2{
     color: #5394A0;
     font-family: 'Sono', sans-serif;
     text-align:center;
@@ -45,4 +41,9 @@ aside{
 
 .flex-item{
     padding: 12px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
 }
