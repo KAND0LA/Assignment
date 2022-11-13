@@ -7,6 +7,7 @@
 .main_section{
     background-color: #EDDDD0;
     height: 100vh;
+    order: 2;
 }
 
 .aside_h2{
@@ -53,6 +54,7 @@ main{
 aside{
     height: 100vh;
     background-color: #F9F3EC;
+    order: 1;
 }
 
 .textbox{
@@ -120,4 +122,64 @@ button {
     display: flex;
     justify-content: right;
     margin-right: 12px;
+}
+
+@media screen and (max-width:600px){
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    aside{
+        height: 130px;
+        background-color: #F9F3EC;
+        text-align: center;
+        order: 2;
+    }
+
+    .textbox{
+        width: 88%;
+        padding-bottom: 100px;
+        padding-top: 20px;
+        padding-left: 20px;
+        border: 2px solid skyblue;
+        margin: 10px;
+        background-color: #F9F3EC;
+    }
+
+    .nav-container{
+        list-style: none;
+        display: flex;
+        justify-content:center;
+        color: #5394A0;
+    }
+
+    .main_section{
+        background-color: #EDDDD0;
+        height: 85vh;
+        order: 1;
+    }
+
+    .list{
+        color: #5394A0;
+        font-family: 'Sono', sans-serif;
+        list-style: none;
+    }
+
+    .footer_h1{
+        text-align: center;
+        font-family: 'Sono', sans-serif;
+        color: #5394A0;
+        padding-top: 40px;
+    }
+
+    .images{
+        display: flex;
+        background-color: transparent;
+        justify-content: center;
+        padding: 30px;
+        padding-top: 20px;
+    }
 }
