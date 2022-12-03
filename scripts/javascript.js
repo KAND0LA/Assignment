@@ -18,3 +18,12 @@ const new_note_show = document.querySelector('.newnote_button')
 const textbox_words = document.querySelector('textarea')
 const savebutton_save = document.querySelector('.save_button')
 const ul_aside = document.querySelector(".list")
+
+function changeTheme(){
+    if (darktheme_text.textContent == "Dark Theme"){
+        darktheme_text.textContent = 'Light Theme'
+    }
+
+    else{
+        darktheme_text.textContent = 'Dark Theme'
+    };
