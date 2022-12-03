@@ -54,3 +54,13 @@ function show(){
     console.log(textbox_words.value)
     if (textbox_words.value != null && textbox_hide.style.display === "block") {
         textbox_words.value = ''
+
+    }
+    save_button_hide.style.display = 'block'
+    textbox_hide.style.display = "block"
+    cancel_button_hide.style.display = "block"
+
+
+
+}
+new_note_show.addEventListener('click', show)
