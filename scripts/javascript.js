@@ -27,3 +27,17 @@ function changeTheme(){
     else{
         darktheme_text.textContent = 'Dark Theme'
     };
+
+    darktheme_background.classList.toggle('article_dark')
+    h1_article.classList.toggle('Better_Notes_Dark')
+    footer_text.classList.toggle('footer_dark')
+    aside_heading.classList.toggle('aside_h2_dark')
+    aside_list.classList.toggle('list_dark')
+    nav_list.classList.toggle('nav-container-dark')
+    new_note_dark.classList.toggle('newnote_button_dark')
+    darktheme_dark.classList.toggle('darktheme_button_dark')
+    cancel_button_dtheme.classList.toggle('cancel_button_dark')
+    save_button_dtheme.classList.toggle('save_button_dark')
+    aside_background.classList.toggle('aside_dark')
+}
+darkthemebutton.addEventListener("click", changeTheme);
