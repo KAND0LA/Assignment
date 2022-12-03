@@ -4,6 +4,10 @@
     color: #5394A0;
 }
 
+.Better_Notes_Dark{
+    color: white;
+}
+
 .main_section{
     background-color: #EDDDD0;
     height: 100vh;
@@ -16,17 +20,30 @@
     text-align:center;
 }
 
+.aside_h2_dark{
+    color: white;
+}
+
 .list{
     color: #5394A0;
     font-family: 'Sono', sans-serif;
     list-style: square;
 }
 
+.list_dark{
+    color: white;
+}
+
+
 .footer_h1{
     text-align: center;
     font-family: 'Sono', sans-serif;
     color: #5394A0;
     padding-top: 25px;
+}
+
+.footer_dark{
+    color: white;
 }
 
 .images{
@@ -40,6 +57,10 @@
     display: flex;
     justify-content:flex-end;
     color: #5394A0;
+}
+
+.nav-container-dark{
+    color: white;
 }
 
 .flex-item{
@@ -57,6 +78,10 @@ aside{
     order: 1;
 }
 
+.aside_dark{
+    background-color: #3a3b3c;
+}
+
 .textbox{
     width: 96%;
     padding-bottom: 100px;
@@ -65,6 +90,7 @@ aside{
     border: 2px solid lightskyblue;
     margin: 10px;
     background-color: #F9F3EC;
+    display: block;
 }
 
 .newnote_button{
@@ -73,8 +99,12 @@ aside{
     margin-bottom: 12px;
     color: white;
     border-color: transparent; 
-
 }
+
+.newnote_button_dark{
+    background-color: rgb(66, 28, 82);
+}
+
 
 .darktheme_button{
     background-color: #6F6A87;
@@ -83,6 +113,15 @@ aside{
     color: white;
     border-color: transparent; 
 
+}
+
+.darktheme_button_dark{
+    background-color: #400000;
+}
+
+
+.article_dark{
+    background-color: #242526;
 }
 
 button {
@@ -99,7 +138,7 @@ button {
     justify-content: space-between;
 }
 
-.spacing_list{
+li{
     position: relative;
     right: 10px; 
 }
@@ -109,6 +148,11 @@ button {
     color: white;
     border-color: transparent; 
     margin-right: 12px;
+    display: block;
+}
+
+.save_button_dark{
+    background-color: rgb(31, 61, 12);
 }
 
 .cancel_button{
@@ -116,6 +160,11 @@ button {
     color: white;
     border-color: transparent; 
     margin: px;
+    display: block;
+}
+
+.cancel_button_dark{
+    background-color: rgb(13, 34, 65);
 }
 
 .flex-button2{
