@@ -77,3 +77,12 @@ function textbox_input(){
 }
 savebutton_save.addEventListener('click', textbox_input)
 
+
+function textbox_return(event){
+    for( i of notesArray){ 
+        if(i.title === event.target.innerText) {
+            textbox_words.value = i.body
+        }
+    }
+}
+ul_aside.addEventListener('click', textbox_return)
