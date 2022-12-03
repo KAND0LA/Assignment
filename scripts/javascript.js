@@ -64,3 +64,5 @@ function show(){
 
 }
 new_note_show.addEventListener('click', show)
+
+
