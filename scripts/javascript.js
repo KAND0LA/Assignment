@@ -41,3 +41,11 @@ function changeTheme(){
     aside_background.classList.toggle('aside_dark')
 }
 darkthemebutton.addEventListener("click", changeTheme);
+
+function hide(){
+    save_button_hide.style.display ="none"  
+    textbox_hide.style.display = "none" 
+    cancel_button_hide.style.display = "none"
+}
+cancel_button_hide.addEventListener("click", hide)
+
