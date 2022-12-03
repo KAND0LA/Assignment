@@ -60,9 +60,20 @@ function show(){
     textbox_hide.style.display = "block"
     cancel_button_hide.style.display = "block"
 
-
-
 }
 new_note_show.addEventListener('click', show)
 
+let notesArray = [{title:"note one", body:"this is my first note"}, {title:"note two", body:"this is my second note"}]
+
+function textbox_input(){
+
+    let text = prompt("Enter the title of your note!")
+    let saved_text = {title: text, body: textbox_words.value}
+    notesArray.push(saved_text)
+    let list = document.createElement("li")
+    let list_title = document.createTextNode(text)
+    list.appendChild(list_title)
+    ul_aside.appendChild(list)     
+}
+savebutton_save.addEventListener('click', textbox_input)
 
