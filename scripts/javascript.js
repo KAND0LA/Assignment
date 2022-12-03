@@ -49,3 +49,8 @@ function hide(){
 }
 cancel_button_hide.addEventListener("click", hide)
 
+
+function show(){
+    console.log(textbox_words.value)
+    if (textbox_words.value != null && textbox_hide.style.display === "block") {
+        textbox_words.value = ''
